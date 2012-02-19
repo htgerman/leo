@@ -27,9 +27,5 @@ class page_index extends Page {
         if($crud->grid)
             $crud->grid->addPaginator(5);
 
-
-
-        // Oh and thanks for giving Agile Toolkit a try! You'll be excited how simple
-        // it is to use.
     }
 }

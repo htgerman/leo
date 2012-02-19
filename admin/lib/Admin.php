@@ -10,13 +10,22 @@ class Admin extends ApiFrontend {
 
         // This will add some resources from atk4-addons, which would be located
         // in atk4-addons subdirectory.
-        $this->addLocation('../atk4-addons',array(
+       /* $this->addLocation('../atk4-addons',array(
                     'php'=>array(
                         'mvc',
                         'misc/lib',
                         )
                     ))
-            ->setParent($this->pathfinder->atk_location);
+            ->setParent($this->pathfinder->atk_location);*/
+        $this->addLocation('..',array(
+                    'php'=>array(
+                        'lib',
+                        'atk4-addons/mvc',
+                        'atk4-addons/billing/lib',
+                        'atk4-addons/misc/lib',
+                        )
+                    ))
+            ->setParent($this->pathfinder->base_location);
 
         // A lot of the functionality in Agile Toolkit requires jUI
         $this->add('jUI');

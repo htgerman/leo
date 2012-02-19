@@ -23,5 +23,6 @@ class page_index extends Page {
             $tab2->grid->addPaginator(20);
         }
         $tab3 = $tabs->addTab('Garment Models');
+        
     }
 }
