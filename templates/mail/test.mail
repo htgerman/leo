@@ -1,0 +1,12 @@
+<h2><?subject?>Welcome to Agile Toolkit Community Site<?/?></h2>
+<p>Hello </p><?name?>Leo<?/?>,
+<p>Thanks for trying out <a href="http://agiletoolkit.org/">Agile Toolkit - PHP UI Framework with jQuery</a>.Agile Toolkit makes development easy and fun and is aimed to build acommunity of dedicated developers focused on development efficiency andgood quality code.</p>
+<p>To confirm your free membership, simply click on the link below andyou will be able to comment, vote, update your profile and project infoand keep track on your license purchase.</p>
+<a href="<?$url?>"><?$url?></a>
+
+<h3>Privacy</h3>
+<p>We value your privacy. Information you share on the site will alwaysbe in your control and we will not share or rent it to any 3rd parties.</p>
+
+<h3>WE NEED YOUR HELP</h3>
+<p>A lot of our effort goes into improvements of Agile Toolkit andmaking best developer experience ever. You've just got a very powerfulnew toolkit at your disposal. Don't keep it to yourself, share the wordabout <a href="http://atk4web.local.agiletech.ie/community/love">Agile Toolkit</a>with your friends.</p>
+<p><i>With Regards<br/><?sign?>Anke<?/?></i></p>
