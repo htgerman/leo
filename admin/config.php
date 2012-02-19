@@ -2,7 +2,7 @@
 include dirname(dirname(__FILE__)).'/config.php';
 //$config['atk']['base_path']='/leo/atk4/';
 $config['atk']['base_path']='../atk4/';
-$config['dsn']='mysql://anke:marianne@localhost/leo';
+$config['dsn']='mysql://myusername:mypassword@localhost/dbname';
 
 # Agile Toolkit attempts to use as many default values for config file,
 # and you only need to add them here if you wish to re-define default
