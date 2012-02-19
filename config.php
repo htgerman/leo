@@ -1,7 +1,7 @@
 <?php
 
 $config['atk']['base_path']='./atk4/';
-$config['dsn']='mysql://anke:marianne@localhost/leo';
+$config['dsn']='mysql://myusername:password@localhost/dbname;
 
 $config['url_postfix']='';
 $config['url_prefix']='?page=';
