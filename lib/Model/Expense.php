@@ -14,14 +14,16 @@ class Model_Expense extends Model_Table {
         parent::init();
 
         $this->addField('name')
-            ->mandatory(true);
+            ->mandatory(true)
+            ->Caption('Description');
         $this->addField('expense_date')
             ->type(date)
             ->mandatory(true)
             ->defaultValue(date('y-m-d'));
         $this->addField('category_id')
             ->refModel('Model_ExpenseType')
-            ->mandatory(true);
+            ->mandatory(true)
+            ->Caption('Expense Type');
         $this->addField('amount')
             ->datatype('money');
     }

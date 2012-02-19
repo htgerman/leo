@@ -18,12 +18,12 @@ class Frontend extends ApiFrontend {
                     ))
             ->setParent($this->pathfinder->base_location);
 
-        $this->addLocation('admin',array(
+        $this->addLocation('./admin',array(
                     'php'=>array(
                         'lib'
                         )
                     ))
-            ->setParent($this->pathfinder->base_location);
+            ->setParent($this->pathfinder->atk_location);
 
         // A lot of the functionality in Agile Toolkit requires jUI
         $this->add('jUI');
